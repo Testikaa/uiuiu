@@ -1,0 +1,12 @@
+.app{
+    position: relative;
+}
+.main{
+    top: 7vw;
+    /* background-color: gold; */
+    position: absolute;
+    z-index: 1;
+}
+/* .main-page__lists{
+    background-color: violet;
+} */

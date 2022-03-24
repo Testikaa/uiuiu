@@ -1,0 +1,46 @@
+.list_li{
+    display: flex;
+    height: 12vw;
+    border: none;
+    width: 16vw;
+    margin: 0;
+    border: 0.09vw solid rgb(245, 236, 231);
+}
+.toList_text{
+    height: 1.87vw;
+    font-size: 1.5vw;
+    padding: 0.94vw;
+    margin: 0.1vw;
+}
+.toList_text:hover{
+    background-color: rgb(245, 236, 231);
+}
+.list_block {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 769px){
+    .list_block{
+        margin-left: 2vw;
+    }
+    .toList_text{
+        font-size: 2.6vw;
+    }
+    .list_li{
+        width: 30vw;
+        height: 31vw;
+    }
+}
+@media (max-width: 540px){
+    .toList_text{
+        font-size: 3vw;
+        margin: 0.4vw;
+    }
+    .list_li{
+        width: 90vw;
+        height: 30vw;
+    }
+    .list_block{
+        margin-top: 3vw;
+    }
+}

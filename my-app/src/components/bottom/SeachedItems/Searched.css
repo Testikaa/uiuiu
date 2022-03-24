@@ -1,0 +1,48 @@
+.searched_add_block{
+    position: relative;
+    margin-left: 30vw;
+}
+.searched_add_button{
+    border: 0.09vw solid rgb(240, 182, 227);
+    width: 7.4vw;
+    padding: 0.47vw;
+    border-radius: 2.81vw;
+    position: absolute;
+    top: 2.81vw;
+    left: 34%;
+    font-size: 1.45vw;
+}
+@media (max-width: 768px){
+    .searched_add_text{
+        font-size: 2.3vw;
+        margin-left: -5vw;
+    }
+    .searched_add_button{
+        text-align: center;
+        width: 16vw;
+        padding: 2.23vw;
+        height: 4vw;
+        font-size: 3vw;
+        top: 4.6vw;
+        left: 24%;
+    }
+}
+@media (max-width: 540px){
+    .searched_add_text{
+        font-size: 3vw;
+        margin-left: -18vw;
+        margin-top: 2vw;
+    }
+    .searched_add_button{
+        text-align: center;
+        width: 17vw;
+        padding: 2.23vw;
+        height: 4vw;
+        font-size: 3vw;
+        top: 4.6vw;
+        left: 24%;
+    }
+    .product-list{
+        margin-top: 2vw;
+    }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.31w;
+}
+.top-block{
+    width: 100vw;
+    display: flex;
+    position: relative;
+    margin-top: 0.4vw;
+ }
+.Search-block{
+    box-sizing: border-box;
+    position: absolute;
+    right: 0.9vw;
+    top: 0.9vw;
+}
+.SearchInp{
+    height: 2.34vw;
+    width: 15vw;
+    padding-left: 0.28vw; padding-right: 0.28vw;
+    font-size: 1.5vw;
+}
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+} 
+input[type=text]:focus {
+    width: 28vw;
+}
+.SearchInp button{
+    width: 2.5vw;
+    height: 3.8vw;
+}
+@media (max-width: 768px){
+    .SearchInp{
+        font-size: 1.5vw;
+        height: 4vw;
+        width: 15vw;
+    }
+    .Search-block button{
+        height: 5vw;
+        font-size: 2vw;
+    }
+}
+@media (max-width: 540px){
+    .SearchInp{
+        font-size: 3vw;
+        height: 5vw;
+        width: 18vw;
+    }
+    .Search-block button{
+        height: 6vw;
+        font-size: 3vw;
+    }
+}

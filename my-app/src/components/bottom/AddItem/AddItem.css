@@ -1,0 +1,97 @@
+.add_block form{
+    display: block;
+    background-color: rgb(253, 218, 200);
+    width: 46.86vw;
+    border-radius: 1.88vw;
+    height: 23.43vw;
+    position: relative;
+}
+.add_block h3{
+    padding-top: 0.94vw;
+    margin-left: 1.88vw;
+}
+.add_block{
+    margin-left: 30vw;
+}
+.add_block input{
+    border: none;
+    border-radius: 0.66vw;
+    margin-top: 0.94vw;
+    width: 21.56vw;
+    height: 1.88vw;
+    padding-left: 0.28vw; padding-right: 0.28vw;
+}
+.add_block label{
+    margin-left: 1.88vw;
+}
+.add_block button{
+    border: 0.09vw solid rgb(240, 182, 227);
+    border-radius: 0.57vw;
+    position: absolute;
+    right: 0.57vw;
+}
+@media (max-width: 768px){
+    .add_form h3{
+        font-size: 2.4vw;
+    }
+    .add_block label{
+        font-size: 2.2vw;
+    }
+    .add_block button{
+        bottom: 2.5vw;
+        font-size: 2.3vw;
+        height: 5vw;
+    }
+    .add_block form{
+        width: 80vw;
+        border-radius: 1.88vw;
+        height: 40vw;
+    }
+    .add_block input{
+        font-size: 2vw;
+        width: 60%;
+        height: 5vw;
+        padding-left: 0.28vw; padding-right: 0.28vw;
+    }
+    .add_block form{
+        width: 80vw;
+        border-radius: 1.88vw;
+        height: 40vw;
+    }
+    .add_block{
+        margin-left: 10vw;
+    }
+}
+
+@media (max-width: 540px){
+    .add_form h3{
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .add_block label{
+        font-size: 4vw;
+        height: 9vw;
+    }
+    .add_block button{
+        bottom: 4vw;
+        left: 1vw;
+        font-size: 4vw;
+        height: 8vw;
+    }
+    .add_block input{
+        font-size: 4vw;
+        width: 90%;
+        height: 6vw;
+        padding-left: 0.28vw; padding-right: 0.28vw;
+        margin-left: 1vw; margin-bottom: 3vw;
+    }
+    .add_block form{
+        width: 90vw;
+        border-radius: 1.88vw;
+        height: 80vw;
+        margin-top: 3vw;
+    }
+    .add_block{
+        margin-left: 5vw;
+    }
+}
